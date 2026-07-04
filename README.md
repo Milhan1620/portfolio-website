@@ -1,52 +1,142 @@
-# Milhan Musharaf — Portfolio Website
+# 🚀 Milhan Musharaf - AI & Frontend Developer Portfolio
 
-A single-page personal portfolio site built with plain HTML, CSS, and JavaScript
-(no build tools, no frameworks, no npm install needed).
+Welcome to my personal portfolio website! This portfolio showcases my technical skills, projects, internships, certifications, and experience in Artificial Intelligence, Machine Learning, Data Science, Cloud Computing, and Frontend Development.
 
-## Files
+## 🌐 Live Portfolio
 
-```
-portfolio-website/
-├── index.html      → page content
-├── style.css       → all styling
-├── script.js       → nav toggle, typed animation, animated background
-├── assets/
-│   └── Milhan_Musharaf_CV.pdf   → downloadable CV (linked from the hero "Download CV" button)
-└── README.md
-```
+🔗 https://portfolio-website-one-pi-67.vercel.app
 
-## How to run it in VS Code
+---
 
-**Option A — Live Server extension (recommended, auto-refreshes on save)**
-1. Open the `portfolio-website` folder in VS Code: `File → Open Folder…`
-2. Go to the Extensions tab (left sidebar, or `Ctrl+Shift+X` / `Cmd+Shift+X`)
-3. Search for **"Live Server"** by Ritwick Dey and click **Install**
-4. Right-click `index.html` in the file explorer → **"Open with Live Server"**
-5. Your site opens at `http://127.0.0.1:5500` and refreshes automatically whenever you save a file
+# 👨‍💻 About Me
 
-**Option B — No extension needed (Python's built-in server)**
-1. Open the folder in VS Code and open a terminal: `Terminal → New Terminal`
-2. Run:
-   ```
-   python -m http.server 8000
-   ```
-   (use `python3` instead of `python` on Mac/Linux if needed)
-3. Open your browser to `http://localhost:8000`
+I am an Artificial Intelligence undergraduate with a strong passion for building intelligent applications and modern web solutions. My interests include Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), Data Science, Cloud Computing, and Frontend Development.
 
-**Option C — Just double-click it**
-You can also just double-click `index.html` and it'll open directly in your browser.
-This works fine for viewing, but Live Server (Option A) is better while you're editing.
+I enjoy solving real-world problems through practical projects and continuously improving my technical skills through internships, certifications, and hands-on experience.
 
-## How to customize
+Currently, I am actively seeking AI/ML and Frontend Development Internship opportunities.
 
-- **Text/content**: edit `index.html` directly — every section (About, Skills, Projects, Education, Contact) is clearly labeled with HTML comments.
-- **Colors**: all colors are defined once at the top of `style.css` under `:root { ... }` — change `--accent` to swap the teal highlight color, etc.
-- **Projects**: each project is a `<article class="project-card">` block in `index.html` — copy/paste one to add a new project.
-- **CV file**: replace `assets/Milhan_Musharaf_CV.pdf` with your latest resume, keeping the same filename (or update the `href` in the "Download CV" button in `index.html`).
+---
 
-## Deploying it for free (once you're happy with it)
+# 💼 Professional Experience
 
-- **GitHub Pages**: push this folder to a GitHub repo, then enable Pages in the repo Settings → Pages. Your site will be live at `https://<username>.github.io/<repo-name>`.
-- **Netlify / Vercel**: drag-and-drop the folder onto netlify.com/drop for an instant live link — no account setup required for a quick preview.
+## 🧠 Data Science & Analytics Intern
+**DevelopersHub Corporation** | Remote  
+**May 2026 – Present**
 
-Once it's live, add the link to your LinkedIn **Featured** section or your profile's **Contact info → Website** field.
+- Working on real-world Data Science and Machine Learning projects.
+- Performing data preprocessing, visualization, and predictive modeling using Python.
+- Building ML models with Scikit-learn.
+- Collaborating remotely with mentors and project teams.
+- Using GitHub for version control and project management.
+
+**Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Git, GitHub
+
+---
+
+## 🌐 Web Developer Intern
+**Innoviast IT Solutions** | Remote  
+**June 2026 – Present**
+
+- Developing responsive and modern web applications.
+- Creating user-friendly interfaces using HTML, CSS, JavaScript, and Bootstrap.
+- Optimizing website performance and user experience.
+- Working on real-world frontend development projects.
+
+**Technologies:** HTML5, CSS3, JavaScript, Bootstrap, Git, GitHub
+
+---
+
+## ☁️ Cloud Computing Intern
+**CodeAlpha** | Remote  
+**July 2026 – Present**
+
+- Learning cloud computing through practical assignments and projects.
+- Understanding cloud deployment concepts and cloud services.
+- Completing internship tasks and collaborating remotely with mentors.
+
+**Technologies:** Cloud Computing, Git, GitHub, Linux (Basic)
+
+---
+
+# 🛠 Technical Skills
+
+### Programming Languages
+- Python
+- JavaScript
+- HTML5
+- CSS3
+
+### AI & Machine Learning
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Natural Language Processing
+- TensorFlow
+- Scikit-learn
+- OpenCV
+
+### Data Science
+- Pandas
+- NumPy
+- Matplotlib
+- Data Visualization
+- Data Analytics
+
+### Frontend Development
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Responsive Web Design
+
+### Tools & Platforms
+- Git
+- GitHub
+- Firebase
+- VS Code
+
+---
+
+# 🚀 Featured Projects
+
+- Bank Marketing Prediction (Machine Learning)
+- Plant Disease Detection
+- Computer Vision Projects
+- Data Analytics Dashboard
+- Flutter Mobile Applications
+- Frontend Web Development Projects
+
+---
+
+# 🎓 Education
+
+**Bachelor of Artificial Intelligence**  
+University of Wah  
+2023 – 2027
+
+---
+
+# 📜 Certifications
+
+- Introduction to AI
+- Introduction to Data Analytics
+- Exploratory Data Analysis for Machine Learning
+- Fundamentals of Building AI Agents
+- Introduction to Deep Learning & Neural Networks with Keras
+
+---
+
+# 📬 Contact
+
+📧 Email: **milhanmusharaf891@gmail.com**
+
+💼 LinkedIn: **https://www.linkedin.com/in/milhanmusharaf**
+
+💻 GitHub: **https://github.com/Milhan1620**
+
+🌐 Portfolio: **https://portfolio-website-one-pi-67.vercel.app**
+
+---
+
+⭐ Thank you for visiting my portfolio! Feel free to explore my projects and connect with me on LinkedIn.
