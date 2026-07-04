@@ -1,69 +1,52 @@
-# 🚀 Milhan Musharaf - AI & Frontend Developer Portfolio
+# Milhan Musharaf — Portfolio Website
 
-Welcome to my personal portfolio website! This portfolio showcases my skills, projects, certifications, and experience in Artificial Intelligence, Machine Learning, Data Science, and Frontend Development.
+A single-page personal portfolio site built with plain HTML, CSS, and JavaScript
+(no build tools, no frameworks, no npm install needed).
 
-## 🌐 Live Portfolio
-(Add your live portfolio link here)
+## Files
 
-## 👨‍💻 About Me
+```
+portfolio-website/
+├── index.html      → page content
+├── style.css       → all styling
+├── script.js       → nav toggle, typed animation, animated background
+├── assets/
+│   └── Milhan_Musharaf_CV.pdf   → downloadable CV (linked from the hero "Download CV" button)
+└── README.md
+```
 
-I am an Artificial Intelligence undergraduate passionate about building intelligent applications and modern web solutions. I enjoy solving real-world problems using AI, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), and Frontend Development.
+## How to run it in VS Code
 
-Currently, I am seeking internship opportunities in AI/ML and Frontend Development to apply my skills and continue learning.
+**Option A — Live Server extension (recommended, auto-refreshes on save)**
+1. Open the `portfolio-website` folder in VS Code: `File → Open Folder…`
+2. Go to the Extensions tab (left sidebar, or `Ctrl+Shift+X` / `Cmd+Shift+X`)
+3. Search for **"Live Server"** by Ritwick Dey and click **Install**
+4. Right-click `index.html` in the file explorer → **"Open with Live Server"**
+5. Your site opens at `http://127.0.0.1:5500` and refreshes automatically whenever you save a file
 
-## 🛠️ Technologies Used
+**Option B — No extension needed (Python's built-in server)**
+1. Open the folder in VS Code and open a terminal: `Terminal → New Terminal`
+2. Run:
+   ```
+   python -m http.server 8000
+   ```
+   (use `python3` instead of `python` on Mac/Linux if needed)
+3. Open your browser to `http://localhost:8000`
 
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- Python
-- Machine Learning
-- Deep Learning
-- TensorFlow
-- Scikit-learn
-- OpenCV
-- Pandas
-- NumPy
-- Git & GitHub
+**Option C — Just double-click it**
+You can also just double-click `index.html` and it'll open directly in your browser.
+This works fine for viewing, but Live Server (Option A) is better while you're editing.
 
-## ✨ Features
+## How to customize
 
-- Responsive Design
-- Professional UI/UX
-- About Me Section
-- Technical Skills
-- Education
-- Certifications
-- AI & Frontend Projects
-- Contact Information
-- Social Media Links
+- **Text/content**: edit `index.html` directly — every section (About, Skills, Projects, Education, Contact) is clearly labeled with HTML comments.
+- **Colors**: all colors are defined once at the top of `style.css` under `:root { ... }` — change `--accent` to swap the teal highlight color, etc.
+- **Projects**: each project is a `<article class="project-card">` block in `index.html` — copy/paste one to add a new project.
+- **CV file**: replace `assets/Milhan_Musharaf_CV.pdf` with your latest resume, keeping the same filename (or update the `href` in the "Download CV" button in `index.html`).
 
-## 📂 Featured Projects
+## Deploying it for free (once you're happy with it)
 
-- Bank Marketing Prediction
-- Plant Disease Detection
-- Computer Vision Projects
-- Data Analytics Projects
-- Flutter Mobile Applications
-- Frontend Web Development Projects
+- **GitHub Pages**: push this folder to a GitHub repo, then enable Pages in the repo Settings → Pages. Your site will be live at `https://<username>.github.io/<repo-name>`.
+- **Netlify / Vercel**: drag-and-drop the folder onto netlify.com/drop for an instant live link — no account setup required for a quick preview.
 
-## 🎓 Certifications
-
-- Introduction to AI
-- Introduction to Data Analytics
-- Exploratory Data Analysis for Machine Learning
-- Fundamentals of Building AI Agents
-- Introduction to Deep Learning & Neural Networks with Keras
-
-## 📬 Contact
-
-📧 Email: milhanmusharaf891@gmail.com
-
-💼 LinkedIn: https://www.linkedin.com/in/milhanmusharaf
-
-💻 GitHub: https://github.com/Milhan1620
-
----
-
-⭐ If you like this portfolio, don't forget to star the repository!
+Once it's live, add the link to your LinkedIn **Featured** section or your profile's **Contact info → Website** field.
